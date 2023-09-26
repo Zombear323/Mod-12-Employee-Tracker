@@ -1,0 +1,16 @@
+{
+  "name": "mod-12-employee-tracker",
+  "version": "1.0.0",
+  "description": "[Description](#Description)<br>\r [Installation](#Installation-Instructions)<br>\r [Usage Information](#Usage-Information)<br>\r [Test Instructions](#Test-Instructions)<br>\r [Contribution](#Contribution)<br>\r [License](#License)<br>\r [Questions](#Questions)\r [Acceptance Criteria](#Acceptance-Criteria)<br>\r [User Story](#User-Story)<br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.6.1"
+  }
+}

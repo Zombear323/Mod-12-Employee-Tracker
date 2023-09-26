@@ -5,20 +5,6 @@ VALUES ('Sales'),
        ('Legal');
 
 
-INSERT INTO role (title, salary, department_id)
-VALUES ('Sales Lead', 90000, 1),
-       ('Salesperson', 70000, 3),
-       ('Lead Engineer', 130000, 2),
-       ('Account Manager', 100000, 3),
-       ('Legal Team Lead', 220000, 2),
-       ('Lawyer', 160000, 4),
-       ('Software Engineer', 170000, 2),
-       ('Accountant', 152000, 3);
-
-
-
-
-
 INSERT INTO Staff (first_name, last_name, role_id, manager_id)
 VALUES ('Jane', 'Doe', 5, 3),
        ('Mark', 'Smith', 2, 1),
@@ -28,4 +14,14 @@ VALUES ('Jane', 'Doe', 5, 3),
        ('Peter', 'Singh', 1, 5),
        ('Frank', 'Fred', 3, NULL),
        ('Ted', 'Niel', 2, NULL);
+
+INSERT INTO role (title, salary, department_id)
+VALUES ('Sales Lead', 90000, 1),
+       ('Salesperson', 70000, 3),
+       ('Lead Engineer', 130000, 2),
+       ('Account Manager', 100000, 3),
+       ('Legal Team Lead', 220000, 2),
+       ('Lawyer', 160000, 4),
+       ('Software Engineer', 170000, 2),
+       ('Accountant', 152000, 3);
 
