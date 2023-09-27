@@ -1,4 +1,4 @@
-# Mod-11-Note-Taker
+# Mod-11-Employee-Tracker
 
 ## Table of Contents
 
